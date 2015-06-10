@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96A70CD51B28EF5D00783956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A70CD41B28EF5D00783956 /* AppDelegate.swift */; };
+		96A70CD81B28EF5D00783956 /* dwollaTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96A70CD61B28EF5D00783956 /* dwollaTest.xcdatamodeld */; };
+		96A70CDA1B28EF5D00783956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A70CD91B28EF5D00783956 /* ViewController.swift */; };
+		96A70CDD1B28EF5D00783956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A70CDB1B28EF5D00783956 /* Main.storyboard */; };
+		96A70CDF1B28EF5D00783956 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A70CDE1B28EF5D00783956 /* Images.xcassets */; };
+		96A70CE21B28EF5D00783956 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A70CE01B28EF5D00783956 /* LaunchScreen.xib */; };
+		96A70CEE1B28EF5D00783956 /* dwollaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A70CED1B28EF5D00783956 /* dwollaTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96A70CE81B28EF5D00783956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96A70CC71B28EF5D00783956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96A70CCE1B28EF5D00783956;
+			remoteInfo = dwollaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96A70CCF1B28EF5D00783956 /* dwollaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dwollaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A70CD31B28EF5D00783956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A70CD41B28EF5D00783956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96A70CD71B28EF5D00783956 /* dwollaTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dwollaTest.xcdatamodel; sourceTree = "<group>"; };
+		96A70CD91B28EF5D00783956 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96A70CDC1B28EF5D00783956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96A70CDE1B28EF5D00783956 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96A70CE11B28EF5D00783956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		96A70CE71B28EF5D00783956 /* dwollaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dwollaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A70CEC1B28EF5D00783956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A70CED1B28EF5D00783956 /* dwollaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dwollaTestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96A70CCC1B28EF5D00783956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A70CE41B28EF5D00783956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96A70CC61B28EF5D00783956 = {
+			isa = PBXGroup;
+			children = (
+				96A70CD11B28EF5D00783956 /* dwollaTest */,
+				96A70CEA1B28EF5D00783956 /* dwollaTestTests */,
+				96A70CD01B28EF5D00783956 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96A70CD01B28EF5D00783956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96A70CCF1B28EF5D00783956 /* dwollaTest.app */,
+				96A70CE71B28EF5D00783956 /* dwollaTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96A70CD11B28EF5D00783956 /* dwollaTest */ = {
+			isa = PBXGroup;
+			children = (
+				96A70CD41B28EF5D00783956 /* AppDelegate.swift */,
+				96A70CD91B28EF5D00783956 /* ViewController.swift */,
+				96A70CDB1B28EF5D00783956 /* Main.storyboard */,
+				96A70CDE1B28EF5D00783956 /* Images.xcassets */,
+				96A70CE01B28EF5D00783956 /* LaunchScreen.xib */,
+				96A70CD61B28EF5D00783956 /* dwollaTest.xcdatamodeld */,
+				96A70CD21B28EF5D00783956 /* Supporting Files */,
+			);
+			path = dwollaTest;
+			sourceTree = "<group>";
+		};
+		96A70CD21B28EF5D00783956 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96A70CD31B28EF5D00783956 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96A70CEA1B28EF5D00783956 /* dwollaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				96A70CED1B28EF5D00783956 /* dwollaTestTests.swift */,
+				96A70CEB1B28EF5D00783956 /* Supporting Files */,
+			);
+			path = dwollaTestTests;
+			sourceTree = "<group>";
+		};
+		96A70CEB1B28EF5D00783956 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96A70CEC1B28EF5D00783956 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96A70CCE1B28EF5D00783956 /* dwollaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A70CF11B28EF5D00783956 /* Build configuration list for PBXNativeTarget "dwollaTest" */;
+			buildPhases = (
+				96A70CCB1B28EF5D00783956 /* Sources */,
+				96A70CCC1B28EF5D00783956 /* Frameworks */,
+				96A70CCD1B28EF5D00783956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dwollaTest;
+			productName = dwollaTest;
+			productReference = 96A70CCF1B28EF5D00783956 /* dwollaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96A70CE61B28EF5D00783956 /* dwollaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A70CF41B28EF5D00783956 /* Build configuration list for PBXNativeTarget "dwollaTestTests" */;
+			buildPhases = (
+				96A70CE31B28EF5D00783956 /* Sources */,
+				96A70CE41B28EF5D00783956 /* Frameworks */,
+				96A70CE51B28EF5D00783956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96A70CE91B28EF5D00783956 /* PBXTargetDependency */,
+			);
+			name = dwollaTestTests;
+			productName = dwollaTestTests;
+			productReference = 96A70CE71B28EF5D00783956 /* dwollaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96A70CC71B28EF5D00783956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Thomas Gibbons";
+				TargetAttributes = {
+					96A70CCE1B28EF5D00783956 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					96A70CE61B28EF5D00783956 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 96A70CCE1B28EF5D00783956;
+					};
+				};
+			};
+			buildConfigurationList = 96A70CCA1B28EF5D00783956 /* Build configuration list for PBXProject "dwollaTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96A70CC61B28EF5D00783956;
+			productRefGroup = 96A70CD01B28EF5D00783956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96A70CCE1B28EF5D00783956 /* dwollaTest */,
+				96A70CE61B28EF5D00783956 /* dwollaTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96A70CCD1B28EF5D00783956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A70CDD1B28EF5D00783956 /* Main.storyboard in Resources */,
+				96A70CE21B28EF5D00783956 /* LaunchScreen.xib in Resources */,
+				96A70CDF1B28EF5D00783956 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A70CE51B28EF5D00783956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96A70CCB1B28EF5D00783956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A70CDA1B28EF5D00783956 /* ViewController.swift in Sources */,
+				96A70CD81B28EF5D00783956 /* dwollaTest.xcdatamodeld in Sources */,
+				96A70CD51B28EF5D00783956 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A70CE31B28EF5D00783956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A70CEE1B28EF5D00783956 /* dwollaTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96A70CE91B28EF5D00783956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96A70CCE1B28EF5D00783956 /* dwollaTest */;
+			targetProxy = 96A70CE81B28EF5D00783956 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96A70CDB1B28EF5D00783956 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96A70CDC1B28EF5D00783956 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96A70CE01B28EF5D00783956 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96A70CE11B28EF5D00783956 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96A70CEF1B28EF5D00783956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96A70CF01B28EF5D00783956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96A70CF21B28EF5D00783956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dwollaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96A70CF31B28EF5D00783956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dwollaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96A70CF51B28EF5D00783956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dwollaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dwollaTest.app/dwollaTest";
+			};
+			name = Debug;
+		};
+		96A70CF61B28EF5D00783956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = dwollaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dwollaTest.app/dwollaTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96A70CCA1B28EF5D00783956 /* Build configuration list for PBXProject "dwollaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A70CEF1B28EF5D00783956 /* Debug */,
+				96A70CF01B28EF5D00783956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A70CF11B28EF5D00783956 /* Build configuration list for PBXNativeTarget "dwollaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A70CF21B28EF5D00783956 /* Debug */,
+				96A70CF31B28EF5D00783956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96A70CF41B28EF5D00783956 /* Build configuration list for PBXNativeTarget "dwollaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A70CF51B28EF5D00783956 /* Debug */,
+				96A70CF61B28EF5D00783956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96A70CD61B28EF5D00783956 /* dwollaTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96A70CD71B28EF5D00783956 /* dwollaTest.xcdatamodel */,
+			);
+			currentVersion = 96A70CD71B28EF5D00783956 /* dwollaTest.xcdatamodel */;
+			path = dwollaTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 96A70CC71B28EF5D00783956 /* Project object */;
+}
