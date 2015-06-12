@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		965A9CAC1B28F11A0099BAD2 /* libDwollaOAuthLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 965A9CA91B28F0D90099BAD2 /* libDwollaOAuthLib.a */; };
+		965A9CB01B28F1E80099BAD2 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 965A9CAF1B28F1E80099BAD2 /* test.m */; };
 		96A70CD51B28EF5D00783956 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A70CD41B28EF5D00783956 /* AppDelegate.swift */; };
 		96A70CD81B28EF5D00783956 /* dwollaTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96A70CD61B28EF5D00783956 /* dwollaTest.xcdatamodeld */; };
 		96A70CDA1B28EF5D00783956 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A70CD91B28EF5D00783956 /* ViewController.swift */; };
@@ -17,6 +19,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		965A9CA41B28F0D90099BAD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 965A9C9E1B28F0D90099BAD2 /* DwollaOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F534DB9A157EB04E000E2BF8;
+			remoteInfo = DwollaOAuth;
+		};
+		965A9CA61B28F0D90099BAD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 965A9C9E1B28F0D90099BAD2 /* DwollaOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EDBE3DA16811A71007FD655;
+			remoteInfo = Test;
+		};
+		965A9CA81B28F0D90099BAD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 965A9C9E1B28F0D90099BAD2 /* DwollaOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 889FF8A4166699B40037DC40;
+			remoteInfo = DwollaOAuthLib;
+		};
+		965A9CAA1B28F0ED0099BAD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 965A9C9E1B28F0D90099BAD2 /* DwollaOAuth.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 889FF8A3166699B40037DC40;
+			remoteInfo = DwollaOAuthLib;
+		};
 		96A70CE81B28EF5D00783956 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 96A70CC71B28EF5D00783956 /* Project object */;
@@ -27,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		965A9C9E1B28F0D90099BAD2 /* DwollaOAuth.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DwollaOAuth.xcodeproj; path = "dwolla-ios/DwollaOAuth.xcodeproj"; sourceTree = "<group>"; };
+		965A9CAD1B28F1E80099BAD2 /* dwollaTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dwollaTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		965A9CAE1B28F1E80099BAD2 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		965A9CAF1B28F1E80099BAD2 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		96A70CCF1B28EF5D00783956 /* dwollaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dwollaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A70CD31B28EF5D00783956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96A70CD41B28EF5D00783956 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965A9CAC1B28F11A0099BAD2 /* libDwollaOAuthLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +93,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		965A9C9F1B28F0D90099BAD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				965A9CA51B28F0D90099BAD2 /* DwollaOAuth.app */,
+				965A9CA71B28F0D90099BAD2 /* Test.app */,
+				965A9CA91B28F0D90099BAD2 /* libDwollaOAuthLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		96A70CC61B28EF5D00783956 = {
 			isa = PBXGroup;
 			children = (
+				965A9C9E1B28F0D90099BAD2 /* DwollaOAuth.xcodeproj */,
 				96A70CD11B28EF5D00783956 /* dwollaTest */,
 				96A70CEA1B28EF5D00783956 /* dwollaTestTests */,
 				96A70CD01B28EF5D00783956 /* Products */,
@@ -80,12 +126,15 @@
 			isa = PBXGroup;
 			children = (
 				96A70CD41B28EF5D00783956 /* AppDelegate.swift */,
+				965A9CAE1B28F1E80099BAD2 /* test.h */,
+				965A9CAF1B28F1E80099BAD2 /* test.m */,
 				96A70CD91B28EF5D00783956 /* ViewController.swift */,
 				96A70CDB1B28EF5D00783956 /* Main.storyboard */,
 				96A70CDE1B28EF5D00783956 /* Images.xcassets */,
 				96A70CE01B28EF5D00783956 /* LaunchScreen.xib */,
 				96A70CD61B28EF5D00783956 /* dwollaTest.xcdatamodeld */,
 				96A70CD21B28EF5D00783956 /* Supporting Files */,
+				965A9CAD1B28F1E80099BAD2 /* dwollaTest-Bridging-Header.h */,
 			);
 			path = dwollaTest;
 			sourceTree = "<group>";
@@ -129,6 +178,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				965A9CAB1B28F0ED0099BAD2 /* PBXTargetDependency */,
 			);
 			name = dwollaTest;
 			productName = dwollaTest;
@@ -182,6 +232,12 @@
 			mainGroup = 96A70CC61B28EF5D00783956;
 			productRefGroup = 96A70CD01B28EF5D00783956 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 965A9C9F1B28F0D90099BAD2 /* Products */;
+					ProjectRef = 965A9C9E1B28F0D90099BAD2 /* DwollaOAuth.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				96A70CCE1B28EF5D00783956 /* dwollaTest */,
@@ -189,6 +245,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		965A9CA51B28F0D90099BAD2 /* DwollaOAuth.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DwollaOAuth.app;
+			remoteRef = 965A9CA41B28F0D90099BAD2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		965A9CA71B28F0D90099BAD2 /* Test.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Test.app;
+			remoteRef = 965A9CA61B28F0D90099BAD2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		965A9CA91B28F0D90099BAD2 /* libDwollaOAuthLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDwollaOAuthLib.a;
+			remoteRef = 965A9CA81B28F0D90099BAD2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		96A70CCD1B28EF5D00783956 /* Resources */ = {
@@ -216,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A70CDA1B28EF5D00783956 /* ViewController.swift in Sources */,
+				965A9CB01B28F1E80099BAD2 /* test.m in Sources */,
 				96A70CD81B28EF5D00783956 /* dwollaTest.xcdatamodeld in Sources */,
 				96A70CD51B28EF5D00783956 /* AppDelegate.swift in Sources */,
 			);
@@ -232,6 +313,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		965A9CAB1B28F0ED0099BAD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DwollaOAuthLib;
+			targetProxy = 965A9CAA1B28F0ED0099BAD2 /* PBXContainerItemProxy */;
+		};
 		96A70CE91B28EF5D00783956 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 96A70CCE1B28EF5D00783956 /* dwollaTest */;
@@ -299,6 +385,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "dwollaTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,6 +424,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "dwollaTest-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -346,9 +434,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/dwolla-ios/DwollaOAuthLib/**",
+				);
 				INFOPLIST_FILE = dwollaTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dwollaTest/dwollaTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -356,9 +452,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/dwolla-ios/DwollaOAuthLib/**",
+				);
 				INFOPLIST_FILE = dwollaTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dwollaTest/dwollaTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -415,6 +518,7 @@
 				96A70CF31B28EF5D00783956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96A70CF41B28EF5D00783956 /* Build configuration list for PBXNativeTarget "dwollaTestTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +527,7 @@
 				96A70CF61B28EF5D00783956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
